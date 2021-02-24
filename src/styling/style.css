@@ -1,0 +1,50 @@
+.row {
+    float: left;
+}
+
+.blackTile {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 5.625vw;
+    height: 5.625vw;
+    background-color: black;
+}
+
+.whiteTile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.625vw;
+    height: 5.625vw;
+    background-color: white;
+}
+
+.blackPiece {
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 50%;
+    height: 4.5vw;
+    width: 4.5vw;
+}
+
+.whitePiece {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 50%;
+    height: 4.5vw;
+    width: 4.5vw;
+}
+
+.checkersBoard {
+    border: 1px solid black;
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
