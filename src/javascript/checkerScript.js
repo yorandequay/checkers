@@ -8,7 +8,15 @@ for (i = 0; i < blackCheckers.length; i++) {
         console.log("Black checker: ");
         console.log(dataBlackPiece);
         console.log("Tile: ");
-        console.log(elementBlackPiece.parentElement.dataset.tile);
+        const dataTile = elementBlackPiece.parentElement.dataset.tile;
+        const stepOne = parseInt(dataTile) + 9;
+        const stepTwo = parseInt(dataTile) + 7;
+        const stepThree =  parseInt(dataTile) - 9;
+        const stepFour =  parseInt(dataTile) - 7;
+        document.getElementById("tile" + stepOne).style.backgroundColor = "yellow";
+        document.getElementById("tile" + stepTwo).style.backgroundColor = "yellow";
+        document.getElementById("tile" + stepThree).style.backgroundColor = "yellow";
+        document.getElementById("tile" + stepFour).style.backgroundColor = "yellow";
     }
 }
 

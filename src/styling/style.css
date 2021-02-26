@@ -48,3 +48,12 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+/* 
+.selectedTile {
+    background-color: yellow; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5.625vw;
+    height: 5.625vw;
+} */
